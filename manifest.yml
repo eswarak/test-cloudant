@@ -1,0 +1,12 @@
+---
+applications:
+- name: eGuessTheWord
+  framework: node
+  runtime: node08
+  memory: 256M
+  instances: 1
+  host: eGuessTheWord
+  path: .     
+  command: node server.js
+  services:
+  - "cloudant-eswara1"
