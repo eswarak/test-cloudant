@@ -4,7 +4,7 @@ applications:
   framework: node
   runtime: node08
   memory: 256M
-  instances: 1
+  instances: 2
   host: eGuessTheWord
   path: .     
   command: node server.js
